@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+}
+
+.col-sm-3 {
+    display: flex;
+}
+
+.header__form-check {
+    padding-left: 0;
+}
+
+.header__block1, .header__block2, .header__block3 {
+    min-height: 230px;
+    border: 3px rgba(183, 255, 189, 0.801) solid;
+    margin: 5px 0 0 0;
+    padding: 20px;
+    align-items: center;
+    background: rgb(173, 125, 125);
+}
+
+.header__block3 {
+    max-height: 230px;
+}
+
+.modal-body__img {
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23008500' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-color: white;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23008500' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header__form-btn {
+    margin-top: 30px;
+}
+
+.color__title{
+    display: flex;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header__form-textarea textarea {
+    resize: none;
+    min-width: 250px;
+    min-height: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.animal__title{
+    display: flex;
+    
+    color: rgb(75, 6, 29);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block2{
+    padding-top: 20px;
+}
